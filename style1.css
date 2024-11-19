@@ -1,0 +1,164 @@
+/* fonte padrão: banco do brasil */
+* {
+    font-family: 'BancoDoBrasil-Textos-medium.ttf', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background1.png') no-repeat center center fixed;
+    background-size: cover; 
+    color: #040506;
+    overflow: hidden;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* entrada de CPF */
+.cpf-section p {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.cpf-input input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #F0F0F0;
+    color: #040506;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    color: #0038A8;
+    border: 1px solid #0038A8;
+    background-color: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0038A8; /* Fundo azul */
+    color: #ffffff; /* Texto branco */
+
+.ok-button {
+    width: 110px;
+    color: #ffffff;
+    background-color: #0038A8;
+}
+.ok-button:hover {
+    background-color: #F9DD16; /* Fundo amarelo */
+    color: #0038A8; /* Texto azul */
+}
+
+
+.accessibility {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+/* Botão de acessibilidade */
+.access-button {
+    background-color: #F9DD16; /* Amarelo */
+    color: #040506; /* Texto preto */
+    padding: 10px 20px; /* Ajuste do padding para retangular */
+    border: none;
+    border-radius: 8px; /* Borda arredondada leve para retangular */
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 550px; /* Largura ajustada */
+    height: 43px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Botão de ajuda */
+.help-button {
+    background-color: #F9DD16; /* Amarelo */
+    color: #040506; /* Texto preto */
+    padding: 10px 20px; /* Ajuste do padding para retangular */
+    border: none;
+    border-radius: 8px; /* Borda arredondada leve para retangular */
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 350px; /* Largura ajustada */
+    height: 43px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Estilo das imagens dentro dos botões */
+.access-button img, .help-button img {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+/* Estilo hover para o botão de acessibilidade */
+.access-button:hover {
+    background-color: #F0F0F0; /* Fundo cinza claro */
+    color: #040506; /* Texto preto */
+}
+
+/* Estilo hover para o botão de ajuda */
+.help-button:hover {
+    background-color: #F0F0F0; /* Fundo cinza claro */
+    color: #040506; /* Texto preto */
+}
+@media (max-width: 400px) {
+    .ok-button {
+        width: 50px;
+    }
+    button {
+        width: 40px;
+        height: 40px;
+    }
+}

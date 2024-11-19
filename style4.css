@@ -1,0 +1,139 @@
+/* fonte padrão: banco do brasil */
+* {
+    font-family: 'BancoDoBrasil-Textos-medium.ttf', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background2.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #040506;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .texto-principal {
+    font-size: 1.5em;
+    margin-bottom: 20px; /* Distância do texto principal para as imagens */
+    color: #040506;
+  }
+  
+  .imagens-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px; /* Distância horizontal entre as imagens */
+    margin-bottom: 30px; /* Distância entre as imagens e os botões */
+  }
+  
+  .imagem-item {
+    text-align: center;
+  }
+  
+  .imagem-doacao {
+    width: 120px; /* Ajuste o tamanho da imagem para um tamanho adequado */
+    height: 120px;
+    object-fit: cover; /* Assegura que as imagens mantenham suas proporções */
+    margin-bottom: 10px; /* Distância entre a imagem e a legenda */
+  }
+  
+  .legenda {
+    font-size: 1em;
+    margin-top: 10px;
+    color: #040506;
+  }
+  
+  .botao-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Distância entre os botões */
+    margin-bottom: 20px; /* Distância dos botões para o botão de ajuda */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .botao-confirmar {
+    background-color: #0038A8; /* Azul */
+    color: #ffffff; /* Letras brancas */
+    border: none;
+  }
+  
+  .botao-confirmar:hover {
+    background-color: #F9DD16; /* Amarelo */
+    color: #0038A8; /* Letras azuis */
+  }
+  
+  .botao-errado {
+    background-color: transparent;
+    color: #0038A8; /* Letras azuis */
+    border: 2px solid #0038A8;
+  }
+  
+  .botao-errado:hover {
+    background-color: #0038A8; /* Azul */
+    color: #ffffff; /* Letras brancas */
+  }
+  
+  .acessibilidade-container {
+    margin-top: 20px;
+}
+
+.help-button {
+    background-color: #F9DD16; /* Amarelo */
+    color: #040506; /* Texto preto */
+    padding: 10px 20px; /* Ajuste do padding para retangular */
+    border: none;
+    border-radius: 10px; /* Borda arredondada leve para retangular */
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 300px; /* Largura ajustada */
+    height: 43px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Estilo das imagens dentro do botão de ajuda */
+.help-button img {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.help-button:hover {
+    background-color: #F0F0F0; /* Fundo cinza claro */
+    color: #040506; /* Texto preto */
+}
+
+@media (max-width: 400px) {
+    .ok-button {
+        width: 50px;
+    }
+    button {
+        width: 40px;
+        height: 40px;
+    }
+}

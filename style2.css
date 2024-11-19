@@ -1,0 +1,136 @@
+/* fonte padrão: banco do brasil */
+* {
+    font-family: 'BancoDoBrasil-Textos-medium.ttf', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background2.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #040506;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Mudando para coluna para disposição vertical */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Garantir que a altura ocupe toda a tela */
+    padding: 20px;
+}
+
+.main-text p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 20px;
+}
+
+.email-phone-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    text-align: center;
+    background-color: #F0F0F0;
+    color: #040506;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Teclado ABNT */
+.keyboard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2em;
+    color: #040506;
+    border: 1px solid #f0f0f0;
+    background-color:#F0F0F0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0038A8; /* Fundo azul */
+    color: #ffffff; /* Texto branco */
+}
+
+button.ok-button {
+    width: 110px;
+    color: #ffffff;
+    background-color: #0038A8;
+}
+
+button.ok-button:hover {
+    background-color: #F9DD16; /* Fundo amarelo */
+    color: #0038A8; /* Texto azul */
+}
+
+/* Botão de ajuda */
+.acessibilidade-container {
+    margin-top: 20px;
+}
+
+.help-button {
+    background-color: #F9DD16; /* Amarelo */
+    color: #040506; /* Texto preto */
+    padding: 10px 20px; /* Ajuste do padding para retangular */
+    border: none;
+    border-radius: 10px; /* Borda arredondada leve para retangular */
+    font-size: 12.5px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 300px; /* Largura ajustada */
+    height: 43px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: background-color 0.3s, color 0.3s; /* Transição suave */
+}
+
+/* Estilo das imagens dentro do botão de ajuda */
+.help-button img {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.help-button:hover {
+    background-color: #F0F0F0; /* Fundo cinza claro */
+    color: #040506; /* Texto preto */
+}
+
+@media (max-width: 400px) {
+    .ok-button {
+        width: 50px;
+    }
+    button {
+        width: 40px;
+        height: 40px;
+    }
+}

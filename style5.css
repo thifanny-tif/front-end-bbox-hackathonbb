@@ -1,0 +1,68 @@
+/* fonte padrão: banco do brasil */
+* {
+    font-family: 'BancoDoBrasil-Textos-medium.ttf', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background1.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #040506;
+    overflow: hidden;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    height: 100%;
+  }
+  
+  .texto-final {
+    font-size: 1.5em;  /* Tamanho do texto */
+    color: #040506;
+    display: flex;  /* Flexbox para alinhar a imagem e o texto lado a lado */
+    align-items: center;  /* Alinha a imagem e o texto verticalmente */
+    gap: 10px;  /* Espaçamento entre a imagem e o texto */
+    margin-bottom: 30px; /* Distância para a imagem do card */
+  }
+  
+  .logo-img {
+    width: 100px;  /* A imagem terá o mesmo tamanho que a fonte */
+    height: auto; /* Mantém a proporção da imagem */
+    vertical-align: middle; /* Garante que a imagem fique alinhada ao meio do texto */
+  }
+  
+  
+  .imagem-card img {
+    width: 400px; /* Ajuste o tamanho da imagem do card */
+    height: auto;
+    margin-bottom: 30px; /* Distância para o botão */
+  }
+  
+  .botao-finalizar {
+    background-color: #0038A8; /* Azul */
+    color: #ffffff; /* Letras brancas */
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .botao-finalizar:hover {
+    background-color: #F9DD16; /* Amarelo */
+    color: #0038A8; /* Letras azuis */
+  }
+  
