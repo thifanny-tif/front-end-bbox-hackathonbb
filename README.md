@@ -1,3 +1,5 @@
+![LOGO (2)](https://github.com/user-attachments/assets/458eb6fc-79b3-4253-a6a7-a9810eae4680)
+
 BBox - Segundo Lugar no HackathonBB do Banco do Brasil
 Nossa Solução: a BBox é uma caixa inteligente desenvolvida com IOT que oferece uma experiência acessível e prática para o descarte de resíduos eletrônicos.
 
