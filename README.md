@@ -14,5 +14,4 @@ Telas desenvolvidas no Figma:
 ![4 - VISÃO COMPUTACIONAL E CONFIRMAÇÃO](https://github.com/user-attachments/assets/5c37a2af-4b5d-452f-a6a3-ec5d08753fbe)
 ![5 - AGRADECIMENTO E GAMEFICAÇÃO](https://github.com/user-attachments/assets/c12b9e2d-b777-4b6b-a2fe-33ebc35ae8c2)
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/wkhxhoQRlMXQ9IpgLmOeuP/Rename?node-id=8-37&node-type=canvas&scaling=scale-down&content-scaling=fixed&page-id=9%3A16&embed-host=share" allowfullscreen></iframe>
 
